@@ -13,6 +13,11 @@ header{
 
 .header_container{
     width: 1280px;
-    height: 72px;
     background-color: antiquewhite;
+}
+
+.header_container_subjacts{
+    display: flex;
+justify-content: center;
+align-items: center;
 }
