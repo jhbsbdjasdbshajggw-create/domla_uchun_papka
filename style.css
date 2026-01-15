@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
 }
 
 header{
@@ -11,13 +12,27 @@ header{
     justify-content: center;
 }
 
+.header_container_logo{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 .header_container{
     width: 1280px;
     background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header_container_subjacts{
+    height: 76px;
+    width: 574px;
     display: flex;
-justify-content: center;
-align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blue;
 }
