@@ -152,10 +152,17 @@ background-color: white;
 .body_container_4party{
 width: 100%;
 display: flex;
+justify-content: space-around;
+}
+
+.types_products{
+    width: 1920px;
+    height: 244px;
+    background-color: bisque;
 }
 
 
-.onetype{
+.onetype , .twotype .theretype .fourtype{
     width: 377px;
     height: 244px;
     background-color: aqua;
