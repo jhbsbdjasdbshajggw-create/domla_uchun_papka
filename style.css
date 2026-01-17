@@ -6,26 +6,31 @@
     text-decoration: none;
 }
 
-header{
+header , .header2{
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.header_container_logo{
-    width: 70px;
-    display: flex;
-    justify-content: space-between;
-}
+
+
 
 
 
 .header_container{
     width: 1280px;
-    background-color: antiquewhite;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header_container_subjacts_links{
+    color: rgb(88, 84, 132);
+    font-size: 16px;
+}
+
+.header_container_subjacts_links:hover{
+    color: rgb(25, 23, 51);    
 }
 
 .header_container_subjacts{
@@ -34,5 +39,42 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: blue;
+}
+
+.header_2_elememts{
+    width: 1264px;
+    height: 60px;
+    display: flex;
+border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.header_2_elements_word{
+    display: flex;
+    padding: 20px;
+}
+
+.right , .subjects{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.subjects:hover{
+  color: rgb(132, 204, 204);
+}
+
+.sunjects_button{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 9px;
+    height: 42px;
+    border: none;
+    background:linear-gradient(to left,#9bdcff, #00a2ff);
+}
+
+.sunjects_button:hover{
+   opacity: 0.7;
 }
