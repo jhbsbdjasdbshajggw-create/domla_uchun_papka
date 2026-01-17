@@ -71,6 +71,8 @@ background-color: white;
 }
 
 .sunjects_button{
+    font-weight: 1000;
+    color: white;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 9px;
@@ -112,5 +114,53 @@ background-color: white;
 }
 
 .margin_uchun_place{
-padding: 10px;
+    color: aquamarine;
+}
+
+.h5_container{
+    color:rgb(0, 255, 170);
+}
+
+.Downloand_for_button{
+    display: flex;
+    justify-content: center;
+}
+
+.additionally{
+    margin-left: 60px;
+}
+
+.Downloand_os_systyem {
+    font-weight:1000;
+    color: white;
+    padding: 20px;
+    border:none;
+    border-radius: 10px;
+    background:linear-gradient(to left, rgb(131, 253, 255),rgb(1, 132, 132));
+}
+
+.Downloand_os_systyem:hover{
+    opacity: .7;
+}
+
+.for_main_image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.body_container_4party{
+width: 100%;
+display: flex;
+}
+
+
+.onetype{
+    width: 377px;
+    height: 244px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
