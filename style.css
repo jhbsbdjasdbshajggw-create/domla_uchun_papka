@@ -41,11 +41,15 @@ header , .header2{
     align-items: center;
 }
 
+body{
+    background-color: rgb(245, 245, 245);
+}
+
 .header_2_elememts{
     width: 1264px;
     height: 60px;
     display: flex;
-border: 1px solid black;
+background-color: white;
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
@@ -77,4 +81,36 @@ border: 1px solid black;
 
 .sunjects_button:hover{
    opacity: 0.7;
+}
+
+.main_word{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1_container{
+    font-size: 55px;
+    opacity: 0.5;
+}
+
+.h1_container:hover{
+    opacity: 0.7;
+}
+
+.h1_container_pasti{
+    font-size: 19px;
+    width: 640px;
+    height: 70px;
+}
+
+.asosiy_container{
+    display: flex;
+    justify-content: center;
+}
+
+.margin_uchun_place{
+padding: 10px;
 }
