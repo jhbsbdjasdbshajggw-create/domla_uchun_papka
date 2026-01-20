@@ -4,13 +4,50 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
+    transition: all .3s ease;
 }
 
-header , .header2{
+header , .header2, .hero{
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
+
+.computer_backround{
+    border-radius: 20px;
+}
+
+.subject_own{
+    font-size: 45px;
+}
+
+.subject_con{
+    width: 480px;
+    height: 66px;
+    background-color: beige;
+}
+
+.first_container , .second_container{
+    display: flex;
+    justify-content: center;
+    width: 608px;
+    height: 455px;
+    background-color: #9bdcff;
+}
+
+
+.body_containertypes{
+    width: 100%;
+    margin-left: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 175px;
+    background-color: aqua;
+}
+
+
 
 
 
@@ -55,6 +92,10 @@ background-color: white;
     border-radius: 20px;
 }
 
+.tt{
+    width: 100%;
+}
+
 .header_2_elements_word{
     display: flex;
     padding: 20px;
@@ -64,6 +105,14 @@ background-color: white;
     display: flex;
     align-items: center;
     padding: 20px;
+}
+
+.downlo0ad_container_own{
+    transition: all .3s ease;
+}
+
+.downlo0ad_container_own:hover{
+    color:aqua;
 }
 
 .subjects:hover{
@@ -94,8 +143,9 @@ background-color: white;
 }
 
 .h1_container{
-    font-size: 55px;
-    opacity: 0.5;
+    font-size: 80px;
+    
+    color:navy;
 }
 
 .h1_container:hover{
@@ -103,8 +153,8 @@ background-color: white;
 }
 
 .h1_container_pasti{
-    font-size: 19px;
-    width: 640px;
+    font-size: 15px;
+    width: 940px;
     height: 70px;
 }
 
@@ -113,12 +163,27 @@ background-color: white;
     justify-content: center;
 }
 
+.downlo0ad_container_own{
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+    padding: 20px;
+    margin-bottom: 60px;
+    margin-right: 50px;
+}
+
+.h5_container_p{
+    display: flex;
+    justify-content: center;
+}
+
 .margin_uchun_place{
-    color: aquamarine;
+    color:darkslategrey;
 }
 
 .h5_container{
-    color:rgb(0, 255, 170);
+    font-size: 20px;
+    color:darkslategrey;
 }
 
 .Downloand_for_button{
@@ -131,6 +196,7 @@ background-color: white;
 }
 
 .Downloand_os_systyem {
+    transition: all  .3s ease;
     font-weight:1000;
     color: white;
     padding: 20px;
@@ -161,13 +227,3 @@ justify-content: space-around;
     background-color: bisque;
 }
 
-
-.onetype , .twotype .theretype .fourtype{
-    width: 377px;
-    height: 244px;
-    background-color:darkslategrey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
